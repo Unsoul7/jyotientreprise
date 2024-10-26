@@ -1,0 +1,162 @@
+@media only screen and (max-width:1130px) {
+
+    #img1,
+    #img2 {
+        display: none;
+    }
+
+    .hero div:last-child {
+        width: 100%;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        padding: 130px 2rem;
+
+    }
+
+    .hero div:last-child p {
+        font-size: 3vmin;
+    }
+    
+.hero div:last-child a {
+    margin-top: 2rem;
+}
+
+    .hero{
+        height: 100vh;
+    }
+    .p1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+.p1 img {
+    width: 35rem;
+    padding-right: 0;
+    display: none;
+}
+
+ 
+.p1 div {
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-items: center;
+}   
+
+
+ 
+.p1 div img{
+    display: block;
+    width: 100%;
+}   
+
+
+.p1 div h1{
+font-size: 5vmin;
+line-height: 6vmin;
+}   
+
+.p1 div p{
+    font-size: 4vmin;
+    line-height: 5vmin;
+    }   
+
+    .carousal p {
+        color: #025048;
+        font-family: 'work sans';
+        font-size: 4vmin;
+    }
+    
+    .item h2 {
+        font-size: 5vmin;
+    }
+
+    .item p{
+        font-size: 4vmin;
+    }
+
+    
+.strip {
+    margin: 5rem auto;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+
+.strip div{
+    padding: 0;
+    align-items: center;
+    padding: 1rem;
+}
+
+.strip div h1{
+    font-size: 5vmin;
+}
+
+
+.strip img{
+    width: 100%;
+}
+
+.strip div a{
+    margin-top: 1rem;
+    font-size: 3vmin;
+}
+
+nav {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    position: relative;
+}
+
+
+
+nav img:nth-child(3) {
+    display: block;
+    width: 5vmax;
+}
+
+nav img:nth-child(4) {
+    display: none;
+}
+
+nav div{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    top: 100%;
+    background: white;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+}
+
+.nav-hidden{
+    top: -400%;
+}
+
+nav div a{
+    padding: 20px 0;
+    color: #025048;
+    font-size: 2.5vmax;
+}
+
+
+footer {
+    padding: 40px 2vmin;
+    font-size: 3vmin;
+}
+
+}

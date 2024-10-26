@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
     <title>Jyoti Entreprise</title>
 </head>
 
@@ -14,14 +15,14 @@
         <nav>
             <img src="assets/logo.png" alt="">
 
-            <div>
+            <div id="menu" class="">
                 <a href="/">Home</a>
                 <a href="">About</a>
                 <a href="">Shop</a>
                 <a href="">Contact</a>
             </div>
 
-            <img src="assets/menu.png" alt="">
+            <img src="assets/menu.png" onclick="opennav()" alt="">
             <img src="assets/cart.png" alt="">
         </nav>
 
@@ -99,6 +100,8 @@
         <p>Copyright © 2024</p>
         <p>All Rights Reserved</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
