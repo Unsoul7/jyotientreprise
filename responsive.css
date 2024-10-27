@@ -72,7 +72,15 @@ line-height: 6vmin;
         font-family: 'work sans';
         font-size: 4vmin;
     }
+
+    .item{
+        width: 100%;
+    }
     
+    .item img{
+        width: 100%;
+    }
+
     .item h2 {
         font-size: 5vmin;
     }
@@ -92,13 +100,13 @@ line-height: 6vmin;
 
 
 .strip div{
-    padding: 0;
+    /* padding: 20px; */
     align-items: center;
-    padding: 1rem;
+    padding: 2rem;
 }
 
 .strip div h1{
-    font-size: 5vmin;
+    font-size: 4vmin;
 }
 
 
@@ -108,7 +116,7 @@ line-height: 6vmin;
 
 .strip div a{
     margin-top: 1rem;
-    font-size: 3vmin;
+    font-size: 2vmin;
 }
 
 nav {
